@@ -5,17 +5,20 @@ React TypeScript Electron
 * Hot-reload support for Electron app
 * Electron Builder support
 
-## Available Scripts in addition to the existing ones
+## To install the project please run`
 
-### `npm run electron:dev`
+### `npm install`
 
 Runs the Electron app in the development mode.
 
-The Electron app will reload if you make edits in the `electron` directory.<br>
-You will also see any lint errors in the console.
+### `npm run electron:dev`
+
+Builds the Electron app package for production to the `dist` folder.
 
 ### `npm run electron:build`
 
-Builds the Electron app package for production to the `dist` folder.
+For using application please copy also this repo and follow the instructions in readme
+
+https://github.com/Hrant1997/mock-api/
 
 Your Electron app is ready to be distributed!
