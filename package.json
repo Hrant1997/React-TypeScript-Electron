@@ -36,7 +36,7 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "precommit": "npm run lint && npm run build && tsc -p electron",
-    "postinstall": "electron-builder install-app-deps",
+    "postinstall": "electron-builder install-app-deps && npm run prestart",
     "electron:dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://127.0.0.1:3000 && tsc -p electron -w\" \"wait-on http://127.0.0.1:3000 && tsc -p electron && electron .\"",
     "electron:build": "npm run build && tsc -p electron && electron-builder",
     "eject": "react-scripts eject"
