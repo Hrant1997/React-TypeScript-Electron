@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules":{
+        "react/jsx-filename-extension": [ 
+            "warn", {
+                "extensions": [".tsx", ".ts"]
+            } 
+        ],
+        "indent": ["error", 2]
+    }
+  }
