@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "*****Running lint******"
+
+npm run precommit
+
+status=$?
+
+exit $status

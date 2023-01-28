@@ -31,6 +31,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prestart": "copy  scripts\\pre-commit .git\\hooks\\ && echo 'hook copied'",
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
